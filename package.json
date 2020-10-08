@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "classnames": "2.2.6",
+    "grommet": "^2.15.1",
     "next": "9.5.3",
     "purecss": "^2.0.3",
     "react": "16.13.1",
