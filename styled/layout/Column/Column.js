@@ -1,3 +1,8 @@
-import styled from "@emotion/styled";
+import styled from "styled-components";
+import columnStyles from "./columns.module.scss";
 
-export const Column = styled.div``;
+const Column = styled.div`
+  ${columnStyles}
+`;
+
+export default Column;
