@@ -20,8 +20,8 @@ export default function Home() {
         <section className={utilStyles.headingMd}>
           <p>All work and no play makes Jack a dull boy.</p>
           <p>
-            <Link href="/categories/first-post">
-              <a>First Post!</a>
+            <Link href="/categories/grid-example">
+              <a>Grid Example!</a>
             </Link>
             <br />
             <Link href="/categories/second-post">

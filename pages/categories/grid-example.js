@@ -1,21 +1,23 @@
 import Head from "next/head";
 import Link from "next/link";
 import Layout from "../../components/layout";
+import Content from "../../components/content";
 
-const FirstPost = () => {
+const GridExample = () => {
   return (
     <Layout>
       <Head>
-        <title>First Post</title>
+        <title>Grid Examples</title>
       </Head>
-      <h1>First Post</h1>{" "}
+      <h1>Grid Example</h1>{" "}
       <h2>
         <Link href="/">
           <a>Back to home</a>
         </Link>
       </h2>
+      <Content />
     </Layout>
   );
 };
 
-export default FirstPost;
+export default GridExample;
