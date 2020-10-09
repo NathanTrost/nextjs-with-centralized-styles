@@ -4,12 +4,14 @@ import Link from "next/link";
 import styles from "./layout.module.scss";
 import utilStyles from "../styles/utils.module.scss";
 
+import Container from "../styled/layout/Container";
+
 const name = "Jack Torrence";
 export const siteTitle = "Next.js Sample Website";
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <Container>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -68,6 +70,6 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
-    </div>
+    </Container>
   );
 }
