@@ -1,4 +1,5 @@
 import { Column, Columns } from "bulma-styled-components";
+import classNames from "classnames";
 
 const Content = () => {
   const col = classNames([

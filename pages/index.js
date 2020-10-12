@@ -3,7 +3,6 @@ import Layout, { siteTitle } from "../layouts/layout";
 import Link from "next/link";
 import styles from "./index.module.scss";
 import utilStyles from "../styles/utils.module.scss";
-import "bulma";
 
 export default function Home() {
   return (
