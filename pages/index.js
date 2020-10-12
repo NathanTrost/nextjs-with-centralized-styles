@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Grommet } from "grommet";
 import { grommet } from "grommet/themes/grommet";
-import Layout, { siteTitle } from "../components/layout";
+import Layout, { siteTitle } from "../layouts/layout";
 import Link from "next/link";
 import styles from "./index.module.scss";
 import utilStyles from "../styles/utils.module.scss";
