@@ -1,25 +1,50 @@
 import { Row, Col } from "antd";
-import styles from "content.module.scss";
+import classNames from "classnames";
+import styles from "./content.module.scss";
 
 const Content = () => {
-  const rowStyle = { width: "100%" };
-  const colStyle = classNames(["gutter-row", styles.column]);
+  const colStyle = classNames([styles.column]);
 
   return (
-    <Row gutter={16} className={rowStyle}>
-      <Col className={colStyle} span={6}>
-        <div style={style}>col-6</div>
-      </Col>
-      <Col className={colStyle} span={6}>
-        <div style={style}>col-6</div>
-      </Col>
-      <Col className={colStyle} span={6}>
-        <div style={style}>col-6</div>
-      </Col>
-      <Col className={colStyle} span={6}>
-        <div style={style}>col-6</div>
-      </Col>
-    </Row>
+    <>
+      <Row gutter={16} className={styles.row}>
+        <Col className={colStyle} span={6}>
+          <div className={styles["column-content"]}>col-6</div>
+        </Col>
+        <Col className={colStyle} span={6}>
+          <div className={styles["column-content"]}>col-6</div>
+        </Col>
+        <Col className={colStyle} span={6}>
+          <div className={styles["column-content"]}>col-6</div>
+        </Col>
+        <Col className={colStyle} span={6}>
+          <div className={styles["column-content"]}>col-6</div>
+        </Col>
+      </Row>
+      <Row gutter={16} className={styles.row}>
+        <Col className={colStyle} span={6}>
+          <div className={styles["column-content"]}>col-6</div>
+        </Col>
+        <Col className={colStyle} span={6}>
+          <div className={styles["column-content"]}>col-6</div>
+        </Col>
+        <Col className={colStyle} span={6}>
+          <div className={styles["column-content"]}>col-6</div>
+        </Col>
+        <Col className={colStyle} span={6}>
+          <div className={styles["column-content"]}>col-6</div>
+        </Col>
+      </Row>
+
+      <Row gutter={16} className={styles.row}>
+        <Col className={colStyle} span={12}>
+          <div>col-12</div>
+        </Col>
+        <Col className={colStyle} span={6}>
+          <div>col-12</div>
+        </Col>
+      </Row>
+    </>
   );
 };
 

@@ -3,7 +3,12 @@
 }
 
 .column {
+  padding: 4px;
+}
+
+.column-content {
   border: 1px solid #ccc;
-  background: "#0092ff";
-  padding: "8px 0";
+  padding: 8px;
+  background: #0092ff;
+  color: white;
 }
