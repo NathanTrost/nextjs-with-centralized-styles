@@ -10,12 +10,11 @@ import ButtonSet from "carbon-components-react/lib/components/ButtonSet";
 const Content = () => {
   return (
     <Form>
-      <FormGroup>
-        <Grid>
-          <Row>
-            <Column>
-              <TextInput />
-
+      <Grid>
+        <Row>
+          <Column>
+            <FormGroup legentText="Inputs">
+              <TextInput type="text" />
               <Select id="select-1" defaultValue="placeholder-item">
                 <SelectItem
                   disabled
@@ -27,17 +26,17 @@ const Content = () => {
                 <SelectItem value="option-2" text="Option 2" />
                 <SelectItem value="option-3" text="Option 3" />
               </Select>
-            </Column>
+            </FormGroup>
+          </Column>
 
-            <Column>
-              <ButtonSet stacked={true}>
-                <Button kind="secondary">Reset</Button>
-                <Button kind="primary">Submit</Button>
-              </ButtonSet>
-            </Column>
-          </Row>
-        </Grid>
-      </FormGroup>
+          <Column>
+            <ButtonSet stacked={true}>
+              <Button kind="secondary">Reset</Button>
+              <Button kind="primary">Submit</Button>
+            </ButtonSet>
+          </Column>
+        </Row>
+      </Grid>
     </Form>
   );
 };
