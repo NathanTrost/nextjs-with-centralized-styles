@@ -2,10 +2,10 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import gridStyles from "./columns.module.scss";
 
-const Columns = ({ amuClasses, children, className }) => {
+const Columns = ({ bulmaClasses, children, className }) => {
   let frameworkClasses = [gridStyles.columns, className];
-  if (amuClasses) {
-    frameworkClasses.push(amuClasses.map((each) => gridStyles[each]));
+  if (bulmaClasses) {
+    frameworkClasses.push(bulmaClasses.map((each) => gridStyles[each]));
   }
 
   return <div className={classNames(frameworkClasses)}>{children}</div>;
@@ -14,6 +14,6 @@ const Columns = ({ amuClasses, children, className }) => {
 export default Columns;
 
 Columns.propTypes = {
-  amuClasses: PropTypes.array,
+  bulmaClasses: PropTypes.array,
   className: PropTypes.string,
 };

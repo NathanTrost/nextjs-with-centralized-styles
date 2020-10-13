@@ -2,10 +2,10 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import containerStyles from "./container.module.scss";
 
-const Container = ({ amuClasses, children, className }) => {
+const Container = ({ bulmaClasses, children, className }) => {
   let frameworkClasses = [containerStyles.container, className];
-  if (amuClasses) {
-    frameworkClasses.push(amuClasses.map((each) => gridStyles[each]));
+  if (bulmaClasses) {
+    frameworkClasses.push(bulmaClasses.map((each) => gridStyles[each]));
   }
 
   return <div className={classNames(frameworkClasses)}>{children}</div>;
@@ -14,6 +14,6 @@ const Container = ({ amuClasses, children, className }) => {
 export default Container;
 
 Container.propTypes = {
-  amuClasses: PropTypes.array,
+  bulmaClasses: PropTypes.array,
   className: PropTypes.string,
 };

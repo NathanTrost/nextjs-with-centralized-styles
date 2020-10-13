@@ -1,14 +1,26 @@
 import Column from "../styled/layout/Column";
 import Columns from "../styled/layout/Columns";
 
+import styles from "./content.module.scss";
 const Content = () => {
   return (
     <>
-      <Columns amuClasses={["is-vcentered", "is-centered"]}>
-        <Column amuClasses={["is-1"]}>Column 1</Column>
-        <Column amuClasses={["is-2"]}>Column 2</Column>
-        <Column amuClasses={["is-3"]}>Column 3</Column>
-        <Column amuClasses={["is-6"]}>Column 4</Column>
+      <Columns
+        bulmaClasses={["is-vcentered", "is-centered"]}
+        className={styles.row}
+      >
+        <Column bulmaClasses={["is-4"]} className={styles.column}>
+          <div className={styles["column-content"]}>Column 1</div>
+        </Column>
+        <Column bulmaClasses={["is-2"]} className={styles.column}>
+          <div className={styles["column-content"]}>Column 2</div>
+        </Column>
+        <Column bulmaClasses={["is-3"]} className={styles.column}>
+          <div className={styles["column-content"]}>Column 3</div>
+        </Column>
+        <Column bulmaClasses={["is-5"]} className={styles.column}>
+          <div className={styles["column-content"]}>Column 4</div>
+        </Column>
       </Columns>
     </>
   );
