@@ -2,12 +2,12 @@ import classNames from "classnames";
 import styles from "./content.module.scss";
 
 const Content = () => {
-  const columnWithBg = classNames(["column", styles["col-bg"]]);
+  const columnWithBg = classNames(["column", styles["column"]]);
   return (
     <>
       <h2 className="title is-2">Basic Grid</h2>
       <div className={classNames(["container"])}>
-        <div className={classNames(["columns", styles["row-bg"]])}>
+        <div className={classNames(["columns", styles["row"]])}>
           <div className={columnWithBg}>Column 1</div>
           <div className={columnWithBg}>Column 2</div>
           <div className={columnWithBg}>Column 3</div>
