@@ -1,9 +1,15 @@
-.row {
+.grid {
   width: 100%;
 }
 
 .column {
+  padding: 8px 0;
+}
+
+.column-content {
   border: 1px solid #ccc;
-  background: "#0092ff";
-  padding: "8px 0";
+  background: #0092ff;
+  color: #fff;
+  padding: 8px;
+  margin: 4px;
 }

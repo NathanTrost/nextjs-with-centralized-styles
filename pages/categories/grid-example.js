@@ -9,13 +9,7 @@ const GridExample = () => {
       <Head>
         <title>Grid Examples</title>
       </Head>
-      <h1>Grid Example</h1>{" "}
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
-      <Content />
+      <h1>Grid Example</h1> <Content />
     </Layout>
   );
 };
