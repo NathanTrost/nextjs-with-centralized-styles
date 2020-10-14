@@ -2,7 +2,7 @@ import Column from "../styled/layout/Column";
 import Columns from "../styled/layout/Columns";
 
 import styles from "./content.module.scss";
-const Content = () => {
+const GridExample = () => {
   return (
     <>
       <Columns
@@ -26,4 +26,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default GridExample;

@@ -1642,11 +1642,6 @@ builtin-status-codes@^3.0.0:
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug=
 
-bulma-scss@0.9.0-1:
-  version "0.9.0-1"
-  resolved "https://registry.yarnpkg.com/bulma-scss/-/bulma-scss-0.9.0-1.tgz#af7af26d927076c66d09cd979aacfd8feef16b35"
-  integrity sha512-cOZFITkQii6YT0ff+P9FDTORFd2UquRzqb38CHYXVLHQDbiqKJG8cmmYzRXjA7jvEVkQy7I4897CVVG7XYeAkw==
-
 cacache@13.0.1:
   version "13.0.1"
   resolved "https://registry.yarnpkg.com/cacache/-/cacache-13.0.1.tgz#a8000c21697089082f85287a1aec6e382024a71c"
