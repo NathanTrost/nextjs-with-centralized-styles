@@ -1,7 +1,6 @@
 import { Heading, Text, Flex, Box } from "rebass";
-import styles from "./content.module.scss";
 
-const Content = () => {
+const FormExample = () => {
   return (
     <>
       <Heading fontSize={[4, 5, 6]} color="primary">
@@ -39,4 +38,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default FormExample;

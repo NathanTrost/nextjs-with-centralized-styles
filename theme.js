@@ -1,12 +1,21 @@
+const colors = {
+  blues: ["#07c", "#004170", "#006fbe", "#2d8fd5", "#5aa7de"],
+  primary: "red",
+  lightgray: "#f6f6ff",
+  primaryblue: "#0092ff",
+  secondary: "tomato",
+  fart: "yellow",
+  gray: "#eee",
+};
+
 // example theme.js
 export default {
   breakpoints: ["480px", "768px", "1024px", "1200"],
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64],
-  colors: {
-    blue: "#07c",
-    lightgray: "#f6f6ff",
-  },
+  colors,
+  background: { colors },
   space: [0, 4, 8, 16, 32, 64, 128, 256],
+  padding: [0, 4, 8, 16, 32],
   fonts: {
     body: "system-ui, sans-serif",
     heading: "inherit",

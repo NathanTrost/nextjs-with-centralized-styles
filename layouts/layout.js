@@ -7,15 +7,15 @@ import utilStyles from "../styles/utils.module.scss";
 // import { ThemeProvider } from "emotion-theming";
 import { ThemeProvider } from "theme-ui";
 
-// import theme from "@rebass/preset";
-import preset from "@rebass/preset";
+import theme from "@rebass/preset";
+// import preset from "@rebass/preset";
 
 const name = "Jack Torrence";
 export const siteTitle = "Next.js Sample Website";
 
 export default function Layout({ children, home }) {
   return (
-    <ThemeProvider theme={preset}>
+    <ThemeProvider theme={theme}>
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico" />
