@@ -7,7 +7,7 @@ import TextInput from "carbon-components-react/lib/components/TextInput";
 import Button from "carbon-components-react/lib/components/Button";
 import ButtonSet from "carbon-components-react/lib/components/ButtonSet";
 
-const Content = () => {
+const GridExample = () => {
   return (
     <Form>
       <Grid>
@@ -41,4 +41,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default GridExample;
