@@ -38,7 +38,7 @@ const EachColumnOption = ({ columnNum }) => {
   );
 };
 
-const Content = () => {
+const GridExample = () => {
   const examplesLength = 6;
   const examples = [];
   for (let i = 0; i < examplesLength; i++) {
@@ -49,4 +49,4 @@ const Content = () => {
   return <>{examples}</>;
 };
 
-export default Content;
+export default GridExample;
