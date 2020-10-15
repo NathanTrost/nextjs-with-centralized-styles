@@ -6,7 +6,7 @@ import utilStyles from "../styles/utils.module.scss";
 
 export default function Layout({ children, home, name, siteTitle }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -22,7 +22,7 @@ export default function Layout({ children, home, name, siteTitle }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <header className={styles.header} title={name}>
         {home ? (
           <>
             <img
@@ -33,7 +33,6 @@ export default function Layout({ children, home, name, siteTitle }) {
               ])}
               alt={name}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
         ) : (
           <>
