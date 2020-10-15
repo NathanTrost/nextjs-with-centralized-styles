@@ -34,11 +34,11 @@ const GridExample = () => {
         <div className="column is-8">
           <div className="field">
             <label className="label">Text Input</label>
-            <input class="input" type="text" placeholder="Text input" />
+            <input className="input" type="text" placeholder="Text input" />
           </div>
           <div className="field">
             <label className="label">Select Input</label>
-            <div class="select">
+            <div className="select">
               <select>
                 <option>Select dropdown</option>
                 <option>With options</option>
@@ -48,10 +48,10 @@ const GridExample = () => {
         </div>
         <div className="column is-4">
           <div className="block">
-            <button class="button is-primary is-rounded">Reset</button>
+            <button className="button is-primary is-rounded">Reset</button>
           </div>
           <div className="block">
-            <button class="button is-primary is-rounded">Send</button>
+            <button className="button is-primary is-rounded">Send</button>
           </div>
         </div>
       </div>
