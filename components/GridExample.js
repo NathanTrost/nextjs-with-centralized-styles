@@ -17,9 +17,7 @@ const EachColumnOption = ({ columnNum }) => {
   const hasModifier = columnNum > 0;
   return (
     <>
-      <h4>
-        {hasModifier ? `${columnNum} Column Responsive Grid` : "Default Grid"}
-      </h4>
+      <h4>{hasModifier ? `${columnNum} Column Grid` : "Default Grid"}</h4>
       <div
         data-testid={`grid-responsive-${columnNum}`}
         className={classNames([
