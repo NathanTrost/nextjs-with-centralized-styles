@@ -1,7 +1,7 @@
 import classNames from "classnames";
 import styles from "./content.module.scss";
 
-const Content = () => {
+const GridExample = () => {
   const columnWithBg = classNames(["column", styles["column"]]);
   return (
     <>
@@ -59,4 +59,4 @@ const Content = () => {
   );
 };
 
-export default Content;
+export default GridExample;
