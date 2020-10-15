@@ -8,14 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
-    "@rebass/preset": "^4.0.5",
+    "@chakra-ui/core": "^0.8.0",
+    "@emotion/core": "10.0.35",
+    "@emotion/styled": "^10.0.27",
     "classnames": "2.2.6",
     "emotion-theming": "^10.0.27",
     "next": "9.5.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "rebass": "^4.0.7",
-    "reflexbox": "^4.0.6",
     "sass": "1.26.11",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.0",
