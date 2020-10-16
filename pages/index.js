@@ -18,8 +18,8 @@ export default function Home() {
         </h1>
 
         <section className={utilStyles.headingMd}>
-          <p>All work and no play makes Jack a dull boy.</p>
-          <p>
+          <p className="content">All work and no play makes Jack a dull boy.</p>
+          <p className="content">
             <Link href="/categories/grid">
               <a>Grid Example</a>
             </Link>
@@ -33,6 +33,7 @@ export default function Home() {
 
       <footer>
         <a
+          className="content"
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
