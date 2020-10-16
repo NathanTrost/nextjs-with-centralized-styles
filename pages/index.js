@@ -21,7 +21,7 @@ export default function Home() {
         <title>{siteTitle}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container data-testid="index_container">
+      <div data-testid="index_container">
         <Heading as="h1" p="20px">
           Welcome to <Link href="https://nextjs.org">Next.js!</Link>
         </Heading>
@@ -34,7 +34,7 @@ export default function Home() {
             <Link href="/categories/form">Form Example</Link>
           </p>
         </Main>
-      </Container>
+      </div>
       <Footer data-testid="index_footer">
         <Text>
           <Link
