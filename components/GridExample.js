@@ -1,8 +1,8 @@
 import classNames from "classnames";
-import customGridStyles from "./customGrid.module.scss";
+import styles from "./customGrid.module.scss";
 
 const GridExample = () => {
-  const columnWithBg = classNames(["column", customGridStyles.cell]);
+  const columnWithBg = classNames(["column", styles.cell]);
   return (
     <>
       <h3 className="title is-2">Basic Grid</h3>

@@ -1,12 +1,13 @@
 import classNames from "classnames";
+import styles from "./customGrid.module.scss";
 
 const FormExample = () => {
   return (
     <>
       <h3 className="title is-2">Table with form</h3>
       <div className={"columns"}>
-        <div className={classNames(["columns", "is-6"])}>
-          <div className="column is-8">
+        <div className={classNames(["columns", "column", "is-7"])}>
+          <div className={classNames(["column", "is-8"])}>
             <div className="field">
               <label className="label">Text Input</label>
               <input className="input" type="text" placeholder="Text input" />
@@ -23,16 +24,24 @@ const FormExample = () => {
               </div>
             </div>
           </div>
-          <div className="column is-4">
-            <div className="block">
-              <button className="button is-primary is-rounded">Reset</button>
-            </div>
-            <div className="block">
-              <button className="button is-primary is-rounded">Send</button>
+          <div className={classNames(["column", "is-4", "is-flex"])}>
+            <div className={styles.pushBtns}>
+              <div className="block">
+                <button className={classNames(["button", "is-light"])}>
+                  Cancel
+                </button>
+              </div>
+              <div className="block">
+                <button className={classNames(["button", "is-link"])}>
+                  Submit
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div className={classNames(["columns", "is-6"])}></div>
+        <div className={classNames(["columns", "column", "is-5"])}>
+          Content on Right
+        </div>
       </div>
     </>
   );
