@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Layout from "../../layouts/layout";
 import GridExample from "../../components/GridExample";
 
@@ -9,7 +8,7 @@ const GridPage = () => {
       <Head>
         <title>Grid Examples</title>
       </Head>
-      <h1>Grid Example</h1> <GridExample />
+      <h1 className="content">Grid Example</h1> <GridExample />
     </Layout>
   );
 };

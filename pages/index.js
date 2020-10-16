@@ -3,6 +3,7 @@ import Layout, { siteTitle } from "../layouts/layout";
 import Link from "next/link";
 import styles from "./index.module.scss";
 import utilStyles from "../styles/utils.module.scss";
+import "../styled/bulma-scss/base/_all.module.scss";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
+        <h1 className={classNames(["content", styles.title])}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
