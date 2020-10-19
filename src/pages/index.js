@@ -1,18 +1,14 @@
 import Head from "next/head";
-import Link from "@chakra-ui/core/dist/Link";
-import Text from "@chakra-ui/core/dist/Text";
-import Heading from "@chakra-ui/core/dist/Heading";
+import { Link, Text, Heading } from "@chakra-ui/core";
 
 import Layout from "../layouts/layout";
 
-import Container from "../styled/Container";
 import Footer from "../styled/Footer";
-import Hero from "../styled/Hero";
 import Main from "../styled/Main";
 
 import styles from "./index.module.scss";
 
-export default function Home() {
+const Test = () => {
   const name = "Jack Torrence";
   const siteTitle = "Next.js Sample Website";
   return (
@@ -52,4 +48,6 @@ export default function Home() {
       </Footer>
     </Layout>
   );
-}
+};
+
+export default Test;
