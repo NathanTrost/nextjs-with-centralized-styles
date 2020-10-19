@@ -5,7 +5,7 @@ const Hero = ({ title, children, ...props }) => (
     justifyContent="center"
     alignItems="center"
     height="100vh"
-    m="40px"
+    p="40px"
     {...props}
   >
     {children}

@@ -6,9 +6,9 @@ const FormPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Second Post</title>
+        <title>Example</title>
       </Head>
-      <h1>Second Post</h1>
+      <h1>Form Example</h1>
       <FormExample />
     </Layout>
   );
